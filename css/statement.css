@@ -1,0 +1,172 @@
+.down-btn {
+  position: fixed;
+  bottom: -7.5rem;
+  z-index: 999;
+}
+.down-btn-contain {
+  position: relative;
+  display: flex;
+  margin: 0.625rem 0;
+}
+.down-btn-float {
+  width: 100%;
+  object-fit: contain;
+}
+.down-btn-bottom {
+  position: absolute;
+  left: 50%;
+  align-self: center;
+  margin-top: 0.625rem;
+}
+.down-btn-bottom img {
+  cursor: pointer;
+  width: 12.125rem;
+  height: 3.4375rem;
+}
+.statement {
+  height: 16.25rem;
+  position: absolute;
+  z-index: 998;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  bottom: -16.25rem;
+  padding-top: 2rem;
+  box-sizing: border-box;
+  border-top: 1px solid #b55829;
+  font-family: "Microsoft YaHei";
+}
+
+.statement-word {
+  color: #8c8d8c;
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-top: 2vh;
+  line-height: 1.25rem;
+}
+.statement-icon {
+  height: 3rem;
+  /* width:3rem; */
+  margin: auto;
+  /* background: cadetblue; */
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+  text-align: center;
+}
+.statement-icon > img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1.25rem;
+}
+
+.statement-icon .tw:hover {
+  content: url(../img/statement/-h-Twitter.png);
+}
+.statement-icon .fb:hover {
+  content: url(../img/statement/-h-Facebook.png);
+}
+.statement-icon .yt:hover {
+  content: url(../img/statement/-h-Youtube.png);
+}
+.statement-icon .dc:hover {
+  content: url(../img/statement/-h-Discord.png);
+}
+.statement-icon .rd:hover {
+  content: url(../img/statement/-h-Reddit.png);
+}
+.statement-icon .tik:hover {
+  content: url(../img/statement/-h-Tiktok.png);
+}
+.statement-icon .ins:hover {
+  content: url(../img/statement/-h-Instagram.png);
+}
+.statement-bottom {
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.3125rem;
+}
+.statement-logo {
+  width: 24.5rem;
+  height: 4.6875rem;
+}
+.statement-us {
+  width: 31.25rem;
+  height: 4.6875rem;
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+}
+.statement-a {
+  position: relative;
+  top: 0.3125rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.statement-a a {
+  cursor: none;
+  text-decoration: none;
+  color: white;
+}
+.statement-i {
+  position: absolute;
+  bottom: 0;
+  color: #8c8d8c;
+  font-weight: 400;
+  font-size: 0.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+/* .statement-xiang {
+  position: absolute;
+  top: -7rem;
+  right: 2rem;
+}
+.statement-xiang img {
+  width: 13.5rem;
+} */
+.box-egg {
+  width: 13.5rem;
+  display: none;
+  top: -40%;
+  position: absolute;
+  right: 3%;
+}
+.box-egg img {
+  width: 100%;
+}
+.statement-la {
+  position: absolute;
+  top: 2.7rem;
+  right: 30rem;
+  width: 8.4375rem;
+}
+.statement-la img {
+  width: 100%;
+}
+.statement-choice {
+  position: absolute;
+  top: -6rem;
+  right: 30rem;
+  width: 8.4375rem;
+  background: rgba(0, 0, 0, 1);
+  z-index: 999;
+}
+.statement-choice > div {
+  width: 100%;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+.statement-choice > div:hover {
+  background: rgba(169, 169, 169, 1);
+}
