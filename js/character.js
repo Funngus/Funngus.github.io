@@ -93,7 +93,7 @@ let characterMsg = [
     check: "7c.png",
     title: "7t.png",
     str: "This? Not bad. It's tough to bite and ... This is your hat?	",
-    voice: "./mp3/role/7.wav",
+    voice: "./mp3/role/7.mp3",
   },
   {
     bg: "2bg.png",
